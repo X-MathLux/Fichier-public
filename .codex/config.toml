@@ -1,0 +1,5 @@
+# Configuration de projet : aucun fournisseur, modèle, secret ou droit global imposé.
+# Charger ce projet comme projet de confiance dans Codex pour appliquer sa configuration.
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 3

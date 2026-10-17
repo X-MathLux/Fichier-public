@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "project": {
+    "name": "project-template",
+    "goal": "Socle personnel pour créer et piloter des projets avec Codex.",
+    "mode": "template",
+    "language": "fr",
+    "timezone": "Europe/Paris"
+  },
+  "orchestration": {
+    "max_parallel_agents": 3,
+    "max_attempts_per_task": 2
+  },
+  "checks": {
+    "application": []
+  }
+}

@@ -1,0 +1,28 @@
+# Préférences privées, paquets de contexte, worktrees et journaux locaux
+.local/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+coverage/
+.coverage
+
+# Éditeurs et système
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+tasks/.board.lock
+tasks/.board-*.tmp
+
+# Ajouter ici les sorties propres à la stack retenue au kickoff.
